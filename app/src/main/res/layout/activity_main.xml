@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.azia.pract2_intent.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/am_calendar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="implicitCall"
+            android:text="@string/calendar" />
+
+        <Button
+            android:id="@+id/am_timer_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="implicitCall"
+            android:text="@string/timer" />
+
+        <Button
+            android:id="@+id/am_browser_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="implicitCall"
+            android:text="@string/browser" />
+
+        <Button
+            android:id="@+id/am_mail_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="implicitCall"
+            android:text="@string/mail" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
